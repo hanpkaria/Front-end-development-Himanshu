@@ -101,6 +101,15 @@
   margin-bottom: 60px;
   transition: background-color 0.6s, color 0.6s; /* transistion als je hover */
 }
+button:hover{
+  cursor: pointer;
+  background-color: #7469B6;
+  color: white ;
+
+}
+button:active{
+  opacity: 0.7;
+}
 
 .homepage_text_mid{
 text-align: center;
