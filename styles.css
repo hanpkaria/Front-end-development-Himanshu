@@ -17,9 +17,8 @@
 
 /* Style the profile picture */
 .profile img {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+  width: 80px;
+  height: 80px;
 }
 
 /* Style the links inside the navigation bar */
@@ -96,9 +95,9 @@
   width: 550px;
   height: 220px;
   border-radius: 80px;
-  margin-left: 60px;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   transition: background-color 0.6s, color 0.6s; /* transistion als je hover */
 }
 button:hover{
