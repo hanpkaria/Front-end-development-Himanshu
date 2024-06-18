@@ -13,6 +13,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 40px;
+  margin-inline: auto;
 }
 
 /* Style the profile picture */
@@ -44,19 +45,16 @@
   padding: 20px;
 }
 
-/* Reset default browser styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 /* kleuren footer */
 .footer {
   background-color: #7469B6;
   color: #fff;
   padding: 20px 0;
   text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 /* Container to center content */
@@ -93,27 +91,56 @@
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 30px;
   width: 550px;
-  height: 220px;
+  height: 180px;
   border-radius: 80px;
   margin-left: 50px;
   margin-top: 50px;
   margin-bottom: 50px;
   transition: background-color 0.6s, color 0.6s; /* transistion als je hover */
 }
-button:hover{
+
+button:hover {
   cursor: pointer;
   background-color: #7469B6;
-  color: white ;
-
+  color: white;
 }
-button:active{
+
+button:active {
   opacity: 0.7;
 }
 
-.homepage_text_mid{
+.homepage_text_mid {
+  text-align: center;
+}
+
+a {
+  color: inherit; 
+  text-decoration: none; 
+  font-family: 'Times New Roman', Times, serif;
+}
+  
+p{
+  text-align: center;
+  align-content: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
 text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  ;
 }
 
 
 
+.header {
+min-height: 600px;
+}
+
+@media (min-width: 760px) {
+.home_page_button {
+  gap: 3rem;
+  grid-template-columns: 300px 1fr;
+   
+  }
+}
 
